@@ -53,7 +53,7 @@ print(f"Nouveau prix unitaire après inflation : {prix_unitaire:.2f} €")
 print(f"Nouvelle quantité en stock : {quantite_stock}")
 
 
-montant_initial = 10000  
+montant_initial = 10000
 taux_rendement_annuel = 5  
 
 
@@ -78,7 +78,7 @@ print(f"Après le retrait et la diminution du taux de rendement, le nouveau gain
 
 chaine = (input("Entrer une chaîne (un mot ou une phrase par exemple : "))
 
-if 'e' in chaine:
-    print("La chaîne contient le caractère 'e'")
+if 'e' in chaine or 'E' in chaine:
+    print("La chaîne contient le caractère 'e' ou 'E'")
 else:
-    print("La chaîne ne contient pas le caractère 'e'")
+    print("La chaîne ne contient ni 'e' ni 'E'")
